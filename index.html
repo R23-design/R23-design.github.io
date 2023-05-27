@@ -7,6 +7,7 @@
   <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="stylesheet" href="./stlye.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:300,400">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="./assets/js/main.js"></script>
   <title>PORTFOLIO</title>
@@ -16,9 +17,9 @@
     <div class="wrapper">
       <nav id="navi">
         <ul>
-          <li><a href="#profile">Profile</a></li>
-          <li><a href="#works">Works</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#profile">PROFILE</a></li>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
     </div>
@@ -27,22 +28,81 @@
   <main>
     <div class="top">
       <h1 class="site-title">
-        <a href="index.html"><img src="./site-title.jpg" alt=""></a>
+        <a href="index.html"><img src="./assets/img/site-title.jpg" alt=""></a>
       </h1>
     </div>
     <section id="profile">
       <div class="wrapper flex">
-        <img src="./IMG_0612.jpg" alt="">
+        <img src="./assets/img/IMG_0612.jpg" alt="">
         <div class="text">
           <p class="name">
             カナヨリ リョウタ<br>
             <span class="family">Kanayori</span>
             <span class="first">Ryota</span>
           </p>
-          <p>はじめまして、大阪在住のプログラマー、カナヨリリョウタです。<br>私は2022年大学卒業後に、実家で認知症の祖母の介護をしながら、何か在宅でできる仕事はないかと思いプログラミングを勉強し始めました。日々さらなるスキルアップのため勉強しており、自分にしか作れないサイトを作ることが目標です。頂いたお仕事にはお客様とのヒアリングを重視し、精神誠意勤めます。
+          <p>はじめまして、大阪府在住のプログラマー、カナヨリリョウタです。<br>2022年大学卒業後に、実家で認知症の祖母の介護をしながら、何か在宅でできる仕事はないかと思いプログラミングを勉強し始めました。日々さらなるスキルアップのため勉強しており、自分にしか作れないサイトを作ることが目標です。頂いたお仕事にはお客様とのヒアリングを重視し、理想の形に近づける事が出来るよう、精神誠意勤めて参ります。<br>
           </p>
-
         </div>
+      </div>
+    </section>
+
+    <section id="works">
+      <div class="wrapper">
+        <h2 class="section-title">WORKS</h2>
+        <div class="item">
+          <div class="work-list">
+            <a target="_blank" href="https://willowy-klepon-16a088.netlify.app/">
+              <img src="./assets/img/works1.png" alt="">
+            </a>
+            <p class="feature">住宅メーカーをモチーフにしたデモサイトです。特徴はサイドの固定ヘッダーで、モバイル版ではJavaScript(jQuery)を用い、ハンバーガーメニューを施しております。</p>
+            <dl>
+              <dt>制作期間</dt>
+              <dd>4days</dd>
+              <dt>目安単価</dt>
+              <dd>¥70,000</dd>
+              <dt>使用言語</dt>
+              <dd>HTML, CSS, JavaScript(jQuery)</dd>
+            </dl>
+          </div>
+          <div class="work-list">
+            <a target="_blank" href="https://serene-sable-c4fdf3.netlify.app/">
+              <img src="./assets/img/works2.png" alt="">
+            </a>
+            <p class="feature">家具メーカーの通販サイトをモチーフにしたデモサイトです。商品を一覧で表示するレイアウトを施し、下層部のページまで作ってます。JavaScript(jQuery)にて、ハンバーガーメニューとしております。
+            </p>
+            <dl>
+              <dt>制作期間</dt>
+              <dd>4days</dd>
+              <dt>目安単価</dt>
+              <dd>¥150,000</dd>
+              <dt>使用言語</dt>
+              <dd>HTML, CSS, JavaScript(jQuery)</dd>
+            </dl>
+          </div>
+          <div class="work-list">
+            <a target="_blank" href="https://chic-alpaca-25bd4b.netlify.app/">
+              <img src="./assets/img/works3.png" alt="">
+            </a>
+            <p class="feature">旅行記事を掲載するためのブログのデモサイトです。メインの見出しの横に小さな見出しを並べて、ブログ感が出ています。Twitterのタイムラインの表示も作りました。</p>
+            <dl>
+              <dt>制作期間</dt>
+              <dd>3days</dd>
+              <dt>目安単価</dt>
+              <dd>¥50,000</dd>
+              <dt>使用言語</dt>
+              <dd>HTML, CSS</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="wrapper">
+        <h2 class="section-title">CONTACT</h2>
+        <a class="insta" target="_blank" href="https://www.instagram.com/r823_programing/">
+          <img src="./assets/img/Instagram_Glyph_Black.jpg" alt="">
+        </a>
+        <a class="btn" href="mailto:ryota21design@gmail.com?subject=お問い合わせ">Send Email</a>
       </div>
     </section>
   </main>
